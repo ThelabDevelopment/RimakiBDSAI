@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rimakibdsai"
+version = "0.1.0"
+description = "The BDS Base API For All of my plugins"
+
+[project.entry-points."endstone"]
+my-plugin = "rimakibdsai:rimakibdsai"
